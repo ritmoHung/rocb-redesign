@@ -44,11 +44,14 @@ export default function Banner() {
 						</Flex>
 					</Heading>
 					<Text as="span" size={{ initial: "3", xs: "5" }} wrap="pretty" className="text-accent font-semibold">
-						A Beautiful Taiwan Today, A Better Taiwan Tomorrow.
+						A Beautiful Taiwan Today, <br className="xs:hidden" />A Better Taiwan Tomorrow.
 					</Text>
 				</Grid>
 			</WrapperLayout>
-			<div style={{ backgroundImage: `url(${Pattern1.src})` }} className="h-64 sm:h-80"></div>
+			<div
+				style={{ backgroundImage: `url(${Pattern1.src})` }}
+				className="[--size:_360px] h-[calc(2/3_*_var(--size))] sm:h-[var(--size)] bg-[auto_var(--size)]"
+			></div>
 		</Grid>
 	);
 }
