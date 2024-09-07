@@ -1,9 +1,7 @@
 // Components & UI
+import NavbarMenu from "./navbar-menu";
 import ThemeToggle from "./theme-toggle";
-import { Flex, IconButton } from "@radix-ui/themes";
-
-// Icons & Images
-import { Bars3Icon } from "@heroicons/react/24/solid";
+import { Flex } from "@radix-ui/themes";
 
 
 
@@ -13,17 +11,14 @@ export default function Navbar() {
 			align="center"
 			justify="end"
 			gapX="5"
-			px="6"
+			px="9"
 			py="5"
 			className="fixed top-0 flex items-center w-screen bg-primary/80 z-50 backdrop-blur-lg"
 			asChild
 		>
 			<nav>
 				<ThemeToggle />
-				<IconButton type="button" title="選單" size="3" variant="ghost" color="gray" highContrast>
-					<Bars3Icon className="size-8" />
-					<span className="sr-only">選單</span>
-				</IconButton>
+				<NavbarMenu />
 			</nav>
 		</Flex>
 	);

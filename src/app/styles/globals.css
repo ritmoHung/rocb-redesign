@@ -81,71 +81,71 @@
 }
 
 .dark, .dark-theme {
-	--blue-1: #08121d;
-	--blue-2: #0d1927;
-	--blue-3: #06274a;
-	--blue-4: #003168;
-	--blue-5: #003d7b;
-	--blue-6: #054c8d;
-	--blue-7: #135ca4;
-	--blue-8: #176fc5;
-	--blue-9: #024a8b;
-	--blue-10: #003a76;
-	--blue-11: #6db7ff;
-	--blue-12: #c7e3ff;
+	--blue-1: #1e2833;
+	--blue-2: #202c38;
+	--blue-3: #1b3a57;
+	--blue-4: #0c4371;
+	--blue-5: #134e81;
+	--blue-6: #1e5b91;
+	--blue-7: #286aa5;
+	--blue-8: #2b7bc2;
+	--blue-9: #6db7ff;
+	--blue-10: #62acf3;
+	--blue-11: #72bcff;
+	--blue-12: #c8e4ff;
 
-	--blue-a1: #0025fd0d;
-	--blue-a2: #0066fb18;
-	--blue-a3: #006cfc3e;
-	--blue-a4: #0068fd5e;
-	--blue-a5: #0074ff72;
-	--blue-a6: #0083ff85;
-	--blue-a7: #158bff9e;
-	--blue-a8: #198effc1;
-	--blue-a9: #0080ff83;
-	--blue-a10: #0071fd6d;
-	--blue-a11: #6db7ff;
-	--blue-a12: #c7e3ff;
+	--blue-a1: #003ffb0b;
+	--blue-a2: #0073fc11;
+	--blue-a3: #0081ff36;
+	--blue-a4: #007bff55;
+	--blue-a5: #0086fd69;
+	--blue-a6: #1592fd7c;
+	--blue-a7: #299bfe94;
+	--blue-a8: #2d9dffb6;
+	--blue-a9: #6db7ff;
+	--blue-a10: #66b4fff1;
+	--blue-a11: #72bcff;
+	--blue-a12: #c8e4ff;
 
 	--blue-contrast: #fff;
-	--blue-surface: #0a213d80;
-	--blue-indicator: #024a8b;
-	--blue-track: #024a8b;
+	--blue-surface: #1a314680;
+	--blue-indicator: #6db7ff;
+	--blue-track: #6db7ff;
 }
 
 @supports (color: color(display-p3 1 1 1)) {
 	@media (color-gamut: p3) {
 		.dark, .dark-theme {
-			--blue-1: oklch(17.8% 0.0286 253);
-			--blue-2: oklch(21% 0.0328 253);
-			--blue-3: oklch(27.3% 0.0744 253);
-			--blue-4: oklch(31.6% 0.1109 253);
-			--blue-5: oklch(36.4% 0.1202 253);
-			--blue-6: oklch(41.5% 0.1248 253);
-			--blue-7: oklch(47.4% 0.1345 253);
-			--blue-8: oklch(54% 0.155 253);
-			--blue-9: oklch(40.9% 0.1248 253);
-			--blue-10: oklch(35% 0.1202 253);
-			--blue-11: oklch(76.8% 0.1488 253);
-			--blue-12: oklch(90.7% 0.0562 253);
+			--blue-1: oklch(27.4% 0.0245 249.2);
+			--blue-2: oklch(28.6% 0.0281 249.2);
+			--blue-3: oklch(34% 0.0638 249.2);
+			--blue-4: oklch(37.6% 0.0953 249.2);
+			--blue-5: oklch(41.6% 0.1031 249.2);
+			--blue-6: oklch(46% 0.1071 249.2);
+			--blue-7: oklch(51.1% 0.1153 249.2);
+			--blue-8: oklch(57% 0.1329 249.2);
+			--blue-9: oklch(76.1% 0.128 249.2);
+			--blue-10: oklch(72.6% 0.128 249.2);
+			--blue-11: oklch(77.5% 0.128 249.2);
+			--blue-12: oklch(90.7% 0.0485 249.2);
 
-			--blue-a1: color(display-p3 0 0.1529 0.9882 / 0.047);
-			--blue-a2: color(display-p3 0.0235 0.4196 0.9922 / 0.089);
-			--blue-a3: color(display-p3 0.051 0.4314 1 / 0.227);
-			--blue-a4: color(display-p3 0.0667 0.4157 1 / 0.349);
-			--blue-a5: color(display-p3 0.1137 0.4588 1 / 0.429);
-			--blue-a6: color(display-p3 0.1804 0.5176 0.9961 / 0.5);
-			--blue-a7: color(display-p3 0.2392 0.5529 1 / 0.597);
-			--blue-a8: color(display-p3 0.2588 0.5569 0.9961 / 0.732);
-			--blue-a9: color(display-p3 0.1686 0.5137 1 / 0.492);
-			--blue-a10: color(display-p3 0.1059 0.4549 1 / 0.408);
-			--blue-a11: color(display-p3 0.5059 0.7294 1 / 0.975);
-			--blue-a12: color(display-p3 0.8078 0.898 1 / 0.988);
+			--blue-a1: color(display-p3 0 0.2549 0.9922 / 0.038);
+			--blue-a2: color(display-p3 0 0.4706 0.9882 / 0.062);
+			--blue-a3: color(display-p3 0.0784 0.5059 0.9961 / 0.202);
+			--blue-a4: color(display-p3 0.0431 0.4824 0.9961 / 0.32);
+			--blue-a5: color(display-p3 0.1333 0.5373 1 / 0.39);
+			--blue-a6: color(display-p3 0.2314 0.5843 1 / 0.465);
+			--blue-a7: color(display-p3 0.298 0.6235 1 / 0.554);
+			--blue-a8: color(display-p3 0.3059 0.6196 1 / 0.691);
+			--blue-a9: color(display-p3 0.5059 0.7255 1 / 0.972);
+			--blue-a10: color(display-p3 0.4824 0.7137 0.9961 / 0.916);
+			--blue-a11: color(display-p3 0.5255 0.7451 1 / 0.972);
+			--blue-a12: color(display-p3 0.8118 0.898 1 / 0.986);
 
 			--blue-contrast: #fff;
-			--blue-surface: color(display-p3 0.0588 0.1255 0.2275 / 0.5);
-			--blue-indicator: oklch(40.9% 0.1248 253);
-			--blue-track: oklch(40.9% 0.1248 253);
+			--blue-surface: color(display-p3 0.1137 0.1804 0.2667 / 0.5);
+			--blue-indicator: oklch(76.1% 0.128 249.2);
+			--blue-track: oklch(76.1% 0.128 249.2);
 		}
 	}
 }
@@ -193,6 +193,13 @@
 	--cursor-slider-thumb: grab;
 	--cursor-slider-thumb-active: grabbing;
 	--cursor-switch: pointer;
+}
+
+@layer components {
+	/* Footer */
+	.footer-link {
+		@apply text-zinc-400 decoration-zinc-400;
+	}
 }
 
 @layer utilities {

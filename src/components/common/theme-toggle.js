@@ -2,7 +2,7 @@
 import { useTheme } from "next-themes";
 
 // Components & UI
-import { Button, DropdownMenu, IconButton } from "@radix-ui/themes";
+import { DropdownMenu, IconButton } from "@radix-ui/themes";
 
 // Icons & Images
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid";
@@ -21,7 +21,7 @@ export default function ThemeToggle() {
 					<span className="sr-only">切換主題</span>
 				</IconButton>
 			</DropdownMenu.Trigger>
-			<DropdownMenu.Content sideOffset={5}>
+			<DropdownMenu.Content>
 				<DropdownMenu.Item onSelect={() => setTheme("light")}>
 					<SunIcon className="size-[1.2em]" />
 					淺色模式

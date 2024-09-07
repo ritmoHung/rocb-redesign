@@ -65,9 +65,8 @@ export default function RootLayout({ children }) {
 				<link rel="icon" href="/icon?<generated>" type="image/<generated>" sizes="<generated>" />
 				<link rel="apple-touch-icon" href="/apple-icon?<generated>" type="image/<generated>" sizes="<generated>" />
 			</head>
-			<body className={`grid grid-rows-[auto_1fr_auto] min-h-svh overflow-x-hidden
-							  ${notoSansTC.variable} ${plusJakartaSans.variable} font-sans antialiased`}>
-				<Providers>
+			<body className={`overflow-x-hidden ${notoSansTC.variable} ${plusJakartaSans.variable} font-sans antialiased`}>
+				<Providers className="grid grid-rows-[1fr_auto] min-h-svh">
 					<Navbar />
 					{children}
 					<Footer />

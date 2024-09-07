@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes";
 
 
 
-export default function Providers({ children }) {
+export default function Providers({ children, ...props }) {
 	return (
 		<ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
 			<Theme
@@ -13,6 +13,7 @@ export default function Providers({ children }) {
 				panelBackground="solid"
 				radius="large"
 				scaling="100%"
+				{...props}
 			>
 				{children}
 			</Theme>

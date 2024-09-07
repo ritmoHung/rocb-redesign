@@ -1,5 +1,4 @@
 import defaultTheme from "tailwindcss/defaultTheme";
-import plugin from "tailwindcss/plugin";
 
 module.exports = {
 	content: [
@@ -25,7 +24,4 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [
-		//
-	],
 };

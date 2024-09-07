@@ -2,12 +2,12 @@ import Image from "next/image";
 
 // Components & UI
 import { WrapperLayout } from "@/components/common/layouts";
+import { Pattern1 } from "./patterns";
 import { Flex, Grid, Heading, Text } from "@radix-ui/themes";
 
 // Icons & Images
 import BannerImg from "/public/imgs/banner.svg";
 import TwFlag from "/public/imgs/tw-flag.svg";
-import Pattern1 from "/public/imgs/pattern1.svg";
 
 
 
@@ -48,10 +48,7 @@ export default function Banner() {
 					</Text>
 				</Grid>
 			</WrapperLayout>
-			<div
-				style={{ backgroundImage: `url(${Pattern1.src})` }}
-				className="[--size:_360px] h-[calc(2/3_*_var(--size))] sm:h-[var(--size)] bg-[auto_var(--size)]"
-			></div>
+			<Pattern1 />
 		</Grid>
 	);
 }
